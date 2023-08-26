@@ -11,6 +11,8 @@ public class Main {
 		
 		System.out.println(ogr.getAge());
 		
+		System.out.println("test");
+		
 	
 		
 	}
