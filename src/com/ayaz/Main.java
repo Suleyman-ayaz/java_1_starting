@@ -1,17 +1,34 @@
 package com.ayaz;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
 	
-		Student ogr=new Student();
+		/**
+		 * Instantiate Student object
+		 */
+		Student std=new Student();
 		//ogr.name="suleyman";
+		std.setAge(20);
 		
-		ogr.setAge(20);
+		System.out.println(std.getAge());
 		
-		System.out.println(ogr.getAge());
+		//#############################################################
 		
-		System.out.println("test");
+		ReadFromKeyBord reader=new ReadFromKeyBord();
+		reader.readFromKeybord();
+		
+		
+		
+	
+		
+		
+		
+
+		
+		
 		
 	
 		
